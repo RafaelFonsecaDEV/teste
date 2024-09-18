@@ -1,0 +1,88 @@
+body{
+    font-weight: 400;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2.2em;
+    color: #818181;
+    margin: 0;
+}
+
+header{
+    background-color: #f4511e;
+    
+}
+
+   /*  sessoes dentro do html */
+section, footer,video{
+    margin: 40px;
+}
+  /*  titulo h1 */
+h1{
+    font-size: 63px;
+    color: #303030;
+    padding: 15px;
+    color: aliceblue;
+    text-align: center;
+}
+     /*  titulo h2 */
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+}
+     
+.carousel-caption h5{
+    font-size: 80px ;
+    color: #ffc107;
+    text-shadow: 2px 2px 2px black ;
+}
+
+
+
+
+
+
+
+
+/*  lista do html */
+
+
+
+
+     /*nav li a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav li{
+   float: left; /* colocar lista lado esquerdo*/
+
+/*}
+
+nav ul{
+    float: right; /* colocar lista lado direito*/
+   /*/* list-style: none; /* serve para tirar as bolinhas da lista e tambem nao fica uma em cima da outra */
+/*}
+nav{  
+    font-size: 12px;
+    letter-spacing: 4px ; /* espaçamento*/
+   /* height: 50px; /* altura*/
+    /* background-color: #1f08f3; /* serve para destcar a cor */
+     /*padding-right: 40px;*/
+/*}*/
+
+
+
+/*#Pacotes .figuras figure{ /*usando id pacotes, dentro da classe ,deixando alinhado  */
+
+/*display: inline-block;
+
+
+}                         
+
+/*#Pacotes .figuras, #Pacotes .video{  /* usando id pacotes, dentro da classe figuras e videos ao centro    */
+    /*text-align: center;
+}
+

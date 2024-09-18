@@ -1,0 +1,126 @@
+<ol> <!--lista ordenada-->
+    <li>Pagamento</li>
+    <li>informações</li>
+    <li>Lugares</li>
+ </ol>
+ <dl> <!--lista descriçao-->
+    <dt>sobre</dt>
+      <dd>falando sobre tudo que voce precisa saber </dd>
+    <dt>Empresa</dt>
+    <dt>tudo sobre a Empresa</dt>
+    <dt>Viagens</dt>
+    <dd>Viagens realizadas </dd>
+ </dl>
+
+
+
+ <tfoot>   <!--pe da tabela-->
+    <tr>
+        <td>Serviço</td>
+        <td>Valor</td>
+    </tr>
+</tfoot>
+
+   <!--senha -->
+<label>Senha</label><br> <!--campo senha -->
+<input type="password" name="Senha"><br><br>
+
+
+</div>
+<div class="col text-center"> <!--col text-center , vai se cada video seja uma coluna, o video estara mais bem posicionada-->
+   <video controls width="500px"> <!--colocar controle no video-->                                <!--video-->
+   <source src="video/Aqui" type="video/mp4"> <!--video site -->
+   <source src="video/" type="video/mp4"><!--video site -->
+    Seu navegador nao suporta o formato do video <a href="video/">Clica aqui para baixar</a>
+</video>
+</div>
+
+
+
+
+
+
+<nav>   <!--listas do site -->
+   <ul>  <!--lista nao ordenada-->
+     <li><a href="#">Pacotes</a></li>  <!--transformando lista em link ultilizando a  e tambem href-->
+     <li><a href="#">Taxas</a></li>
+     <li><a href="#">Contato</a></li>
+   </ul>
+</nav> 
+
+<label>Comentario</label><br><!--campo de comentario-->
+<textarea rows="5" name="Comentario"></textarea><br><br>
+
+<button>Salvar</button> <!-- campo de botao-->
+
+
+
+<fieldset>
+   <br><legend>Escolha a forma de Pagamento</legend> <!--campo de agrupamento-->
+   <label>
+    <br><input type="radio" name="formaPagamento" value="Cartao de credito">Cartao de credito
+   </label>
+   <label>
+      <br><input type="radio" name="formaPagamento" value="Cartao de debito">Cartao de debito         
+   </label>
+   <label>
+     <br><input type="radio" name="formaPagamento" value="Boleto">Boleto
+   </label>
+   <label>
+     <br> <input type="radio" name="formaPagamento" value="Pix"> Pix
+   </label>
+</fieldset>
+
+
+
+<fieldset>
+   <br><legend>Escolha o prazo para Pagamento</legend> <!--campo de lista suspensas-->
+   <select name="prazoPagamento">
+       <option value="avista"> A VISTA</option>
+       <option value="5X"> 5X sem juros</option>
+       <option value="10x" selected >10x com juros</option> <!--selected serve para deixar a opçao que eu deisejar selecionada -->
+   </select>
+</fieldset>
+
+
+
+
+table{   /* tabela ajustas tamanho */
+   padding-right: 40px;
+   width: 100%;
+
+}
+
+table td{
+   color:#303030;
+   padding: 5px;
+}
+
+table tr:nth-child(even){  /* pseu da classe , selecionar quando a linha for par */
+    background-color: #e9e9e9;
+
+   }
+
+table tr:nth-child(odd){  /* pseu da classe , selecionar quando a linha for impar */
+ background-color: #bdbdbd;
+
+}
+
+table thead th{
+   background-color: #f4511e ;
+   color: white;
+}
+
+
+<figure class="col text-center">            <!--imagem--> <!--col text-center , vai se cada figura seja uma coluna, a figura estara mais bem posicionada-->
+   <img src="imagens/pousada.jpg" alt="pousada casas-mg1"> <!--imagem site -->
+   <figcaption>minas gerais</figcaption>  
+</figure>
+<figure class=" col text-center"> <!--col text-center , vai se cada figura seja uma coluna, a figura estara mais bem posicionada-->
+<img src="imagens/serra do cipo.jpg" alt=" cachoeira serra do cipo"> <!--imagem site -->
+ <figcaption> serra do vipo</figcaption> 
+</figure>
+<figure class="col text-center"> <!--col text-center , vai se cada figura seja uma coluna, a figura estara mais bem posicionada-->
+ <img src="imagens/praia.jpg" alt="praia"> <!--imagem site -->
+ <figcaption>sao paulo</figcaption>
+</figure>
